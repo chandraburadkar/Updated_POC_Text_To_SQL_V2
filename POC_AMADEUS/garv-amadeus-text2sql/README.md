@@ -1,1 +1,0 @@
-# POC_Text2Sql_V1
