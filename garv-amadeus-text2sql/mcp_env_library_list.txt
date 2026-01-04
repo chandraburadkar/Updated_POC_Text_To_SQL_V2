@@ -1,0 +1,34 @@
+# Core
+python-dotenv
+requests
+
+# UI
+streamlit
+streamlit-extras
+
+# Data
+pandas
+numpy
+sqlalchemy
+duckdb
+pyarrow
+
+# Validation
+pydantic>=2.0
+typing-extensions
+
+# Visualization
+altair
+plotly
+
+# Exports
+reportlab
+python-pptx
+openpyxl
+
+# Admin / Trace
+graphviz
+
+# Optional
+rich
+loguru
