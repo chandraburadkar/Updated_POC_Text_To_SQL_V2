@@ -1,0 +1,17 @@
+rbac:
+  role_header: "x-mcp-role"
+  default_role: "analyst"
+
+roles:
+  admin:
+    tables: ["*"]
+
+  ops:
+    tables:
+      - checkin_events
+      - presecurity_events
+      - gold_airport_kpi_hourly
+
+  analyst:
+    tables:
+      - gold_airport_kpi_hourly
